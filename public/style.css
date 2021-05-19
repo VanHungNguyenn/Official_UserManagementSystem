@@ -1,0 +1,25 @@
+.avatar {
+    width: 65%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 50%;
+}
+
+body {
+    font-size: 14px;
+}
+
+table thead tr th,
+table tbody tr th,
+.view-user-td {
+    text-align: center;
+}
+
+.paginate_button {
+    border-radius: 10px !important;
+}
+
+@media (max-width: 991px) {
+    .hidden-col {
+        display: none;
+    }
+}
